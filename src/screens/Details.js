@@ -87,7 +87,7 @@ const Details = ({ route }) => {
 						disabled={isOutOfStock}
 					>
 						<Text style={styles.botonText}>
-							{isOutOfStock ? 'Sin Stock' : 'Agregar al Carrito'}
+							{isOutOfStock ? 'Producto Sin Stock' : 'Agregar al Carrito'}
 						</Text>
 					</Pressable>
 				</View>

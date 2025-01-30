@@ -19,13 +19,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/Loading_2.gif",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.loriens.ecommerce"
     },
     "web": {
       "favicon": "./assets/Loading_2.gif"
     },
     "plugins": [
       "expo-sqlite"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b1f8eca8-45c8-4034-b6c6-42c2b70056ab"
+      }
+    }
   }
 }
